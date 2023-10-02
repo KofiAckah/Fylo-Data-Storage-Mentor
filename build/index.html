@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="bg-Neutral-VeryDarkBlue md:flex font-body">
+    <div class="md:grid grid-cols-2 gap-5 mx-auto md:mt-64 mt-36">
+      <!-- Logo Card -->
+      <div class="bg-Neutral-DarkBlue p-2 rounded-tr-half mx-5 shadow-2xl py-5 sm:pr-32">
+        <img src="images/logo.svg" alt="Logo" class="m-4 w-36 sm:w-20">
+        <div class="flex ml-2">
+          <img src="images/icon-document.svg" alt="" class="bg-Neutral-VeryDarkBlue p-2 mx-1 rounded-xl w-10 sm:w-8 h-10 sm:h-8">
+          <img src="images/icon-folder.svg" alt="" class="bg-Neutral-VeryDarkBlue p-2 mx-1 rounded-xl w-10 sm:w-8 h-10 sm:h-8">
+          <img src="images/icon-upload.svg" alt="" class="bg-Neutral-VeryDarkBlue p-2 mx-1 rounded-xl w-10 sm:w-8 h-10 sm:h-8">
+        </div>
+      </div>
+      <!-- Info Card -->
+      <div class="flex flex-col mx-5 sm:mt-0 mt-5">
+        <div class="bg-white flex shadow-2xl rounded-lg items-center justify-center w-40 p-2 self-center hidden sm:block relative top-14 left-32">
+          <p class="text-4xl font-bold">185 &nbsp;</p>
+          <p class="text-sm font-bold text-gray-500">GB LEFT</p>
+        </div>
+
+        <div class="bg-Neutral-DarkBlue shadow-2xl rounded-lg p-4">
+          <div class="flex my-2 justify-center">
+            <p class="text-white font-light">You've used</p>
+            <p class="text-white font-semibold">&nbsp; 815 GB</p>
+            <p class="text-white font-light">&nbsp;of your storage</p>
+          </div>
+          <div class="bg-Neutral-VeryDarkBlue w-10/12 h-5 rounded-full mx-5 border-Neutral-VeryDarkBlue border-2">
+            <div class="w-3/4 h-4 flex rounded-full items-center justify-end gradientBg">
+              <div class="bg-white w-3 h-3 rounded-full mr-1">
+              </div>
+            </div>
+          </div>
+          <div class="mx-5 mb-5 flex justify-between">
+            <p class="text-white">0 GB</p>
+            <p class="text-white">1000 GB</p>
+          </div>
+        </div>
+        <div class="bg-white flex shadow-2xl rounded-lg items-center justify-center w-40 p-2 self-center sm:hidden relative -top-4">
+          <p class="text-4xl font-bold">185 &nbsp;</p>
+          <p class="text-sm font-bold text-gray-500">GB LEFT</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
